@@ -29,7 +29,8 @@ body {
 
 .header-box2 img {
     width: 581px;
-    height: 613px;
+    height: 628px;
+    margin-top: 18px;
 }
 
 .header-box1 p {
@@ -37,6 +38,7 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 25px;
 }
 
 .header-box1 button {
@@ -61,9 +63,10 @@ body {
 
 .box-items-1 {
     width: 312px;
-    height: 312px;
+    height: 310px;
     display: block;
     border: 1px solid #E8E8E8;
+    border-radius: 10px;
     background-color: #161616;
     padding-left: 33px;
     margin-top: 80px;
@@ -78,9 +81,11 @@ body {
     height: 63px;
     border-radius: 10px;
     border: none;
+    margin-top: 15px;
     margin-bottom: 14px;
     font-size: 20px;
     font-weight: 500;
+    display: inline-block;
 }
 
 #btn-2 {
@@ -88,6 +93,7 @@ body {
     height: 63px;
     border: none;
     border-radius: 10px;
+    margin-top: 15px;
     margin-bottom: 14px;
     font-size: 20px;
     font-weight: 500;
@@ -98,9 +104,12 @@ body {
     height: 63px;
     background-color: #DD0000;
     border: none;
+    margin-top: 15px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
+    color: #FFFFFF;
+
 
 }
 
@@ -109,7 +118,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 5px;
 
 }
 

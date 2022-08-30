@@ -1,0 +1,41 @@
+.match-container {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    margin: 20px 20px 0 0;
+    height: 210px;
+}
+
+.match {
+    width: 312px;
+    height: 110px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.match img {
+    width: 90px;
+    margin-top: 15px;
+}
+
+.match span {
+    font-size: 18px;
+    margin: 0 10px 0 10px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.match h4,
+p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.match P {
+    margin-bottom: 20px;
+}
+
+.match h4 {
+    margin-top: 20px;
+}
