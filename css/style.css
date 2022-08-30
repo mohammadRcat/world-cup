@@ -46,9 +46,114 @@ body {
     padding: 16px 25px;
     border-radius: 5px;
     font-size: 20px;
+    border: none;
 }
 
 .fa-chevron-right {
     font-size: 16px;
     color: #FFFFFF;
+}
+
+.main-box {
+    display: flex;
+    width: 100%;
+}
+
+.box-items-1 {
+    width: 312px;
+    height: 312px;
+    display: block;
+    border: 1px solid #E8E8E8;
+    background-color: #161616;
+    padding-left: 33px;
+    margin-top: 80px;
+}
+
+.buttons-box {
+    padding-top: 16px;
+}
+
+#btn-1 {
+    width: 252px;
+    height: 63px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#btn-2 {
+    width: 252px;
+    height: 63px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#btn-3 {
+    width: 252px;
+    height: 63px;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.box-items-2 {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+
+}
+
+.player-box {
+    margin: 10px 0 10px 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 326px;
+    height: 362px;
+
+}
+
+.player-box-items {
+    padding-left: 15px;
+}
+
+.player-box-items img {
+    margin-right: 4px;
+}
+
+.player-box-items a {
+    margin-right: 20px;
+}
+
+.fa-clock {
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.fa-comment-dots {
+    font-size: 22px;
+    margin-right: 4px;
+}
+
+.player-box button {
+    width: 120px;
+    height: 36px;
+    border: 1px solid #161616;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.player-img {
+    width: 100%;
+
 }
