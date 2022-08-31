@@ -5,6 +5,7 @@ body {
     background-color: #F3F1FF;
 }
 
+/* header section --- */
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -57,6 +58,7 @@ body {
     color: #FFFFFF;
 }
 
+/* main section */
 .main-box {
     display: flex;
     width: 100%;
@@ -170,6 +172,8 @@ body {
 
 }
 
+/* footer section */
+
 .footer {
     text-align: center;
     margin-top: 100px;
@@ -204,24 +208,3 @@ body {
     margin: 40px 20px 20px 20px;
     display: inline-block;
 }
-
-/* 
-.match {
-    width: 312px;
-    height: 80px;
-} */
-
-/* media query */
-/* small-device-
-    @media screen and (max-width: 576px){
-        .food{
-            display:flex)
-        }
-    }
-    @media screen and (min-width: 577px) and (max-width: 992pxz){
-        .food{
-            display:flex)
-        }
-    }
-
- */
