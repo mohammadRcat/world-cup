@@ -5,3 +5,48 @@
 
 
 }
+
+/* Mobile responsive */
+@media screen and (max-width: 576px) {
+    .main-box {
+        display: block;
+    }
+
+    .box-items-1 {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .box-items-1 button {
+        margin-left: 20px;
+    }
+
+    .box-items-2 {
+        display: block;
+        margin-left: 20px;
+    }
+
+}
+
+/* Tablet responsive */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .main-box {
+        display: block;
+    }
+
+    .box-items-1 {
+        display: block;
+        margin-left: 15px;
+        margin-left: 200px;
+    }
+
+    .box-items-1 button {
+        margin-left: 20px;
+    }
+
+    .box-items-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+}
