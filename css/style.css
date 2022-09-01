@@ -76,54 +76,48 @@ body {
     margin-top: 80px;
 }
 
-.buttons-box {
-    padding-top: 16px;
-}
+
 
 #btn-1 {
-    width: 252px;
+    width: 245px;
     height: 63px;
     border-radius: 10px;
     border: none;
-    margin-top: 15px;
-    margin-bottom: 14px;
+    margin-top: 31px;
     font-size: 20px;
     font-weight: 500;
     display: inline-block;
 }
 
 #btn-2 {
-    width: 252px;
+    width: 245px;
     height: 63px;
     border: none;
     border-radius: 10px;
-    margin-top: 15px;
-    margin-bottom: 14px;
+    margin-top: 31px;
+    margin-bottom: 0;
     font-size: 20px;
     font-weight: 500;
 }
 
 #btn-3 {
-    width: 252px;
+    width: 245px;
     height: 63px;
     background-color: #DD0000;
     border: none;
-    margin-top: 15px;
+    margin-top: 30px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
 
-
 }
 
 .box-items-2 {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
     margin-left: 5px;
-
 }
 
 .player-box {
@@ -172,11 +166,32 @@ body {
 
 }
 
+.hidden-btn {
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.hidden-btn button {
+    display: inline-block;
+    width: 120px;
+    height: 43px;
+    background-color: #DD0000;
+    border: none;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    visibility: hidden;
+}
+
 /* footer section */
 
 .footer {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 444px;
     align-items: center;
     background-color: #161616;

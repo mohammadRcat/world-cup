@@ -34,31 +34,55 @@
 .box-items-1 {
     display: inline;
     background-color: whitesmoke;
+    visibility: hidden;
 
 
 }
 
-.buttons-box a,
+.box-items-1 a,
 button {
     display: inline;
     text-decoration: none;
+    visibility: visible;
 }
 
 #btn-1 {
     background-color: lightblue;
+    width: 220px;
+    margin-right: 10px;
+    margin-top: 70px;
 }
 
 #btn-2 {
     background-color: slategrey;
+    width: 220px;
+    margin-right: 10px;
+    margin-top: 70px;
+
+}
+
+#btn-3 {
+    width: 220px;
+    margin-top: 70px;
 }
 
 .box-items-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-right: 10px;
+    margin-top: 20px;
 }
 
 .player-box {
     width: 95%;
     height: 100%;
+}
+
+.hidden-btn button {
+    visibility: visible;
+}
+
+.footer-box-1 h1 {
+    padding-right: 100px;
+    font-size: 30px;
 }
